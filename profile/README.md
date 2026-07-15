@@ -1,95 +1,98 @@
 <div align="center">
+  <img src="assets/opencomputeai-banner.png" width="100%" alt="OpenComputeAI — systems, mathematics, and artificial intelligence" />
 
-```text
-  ____  ____  _____ _   _  ____ ___  __  __ ____  _   _ _____ _____    _    ___
- / __ \|  _ \| ____| \ | |/ ___/ _ \|  \/  |  _ \| | | |_   _| ____|  / \  |_ _|
-| |  | | |_) |  _| |  \| | |  | | | | |\/| | |_) | | | | | | |  _|   / _ \  | |
-| |__| |  __/| |___| |\  | |__| |_| | |  | |  __/| |_| | | | | |___ / ___ \ | |
- \____/|_|   |_____|_| \_|\____\___/|_|  |_|_|    \___/  |_| |_____/_/   \_\___|
-```
+  <h1>OpenComputeAI</h1>
 
-### `0P3N_KN0WL3DG3 :: B3TT3R_SY5T3M5 :: 5M4RT3R_41`
+  <p><code>SYSTEMS &times; MATHEMATICS &times; INTELLIGENCE</code></p>
 
-**Computer systems and artificial intelligence, engineered from first principles.**
-
+  <p>
+    Open engineering and education for people who want to understand<br />
+    how computers and artificial intelligence work from first principles.
+  </p>
 </div>
 
 ---
 
-## 01 / About
+## The premise
 
-OpenComputeAI is an open-source engineering and education initiative focused on the foundations of computer systems, artificial intelligence, and modern computing.
+Modern AI is not magic. It is a stack of ideas, abstractions, and engineered systems. OpenComputeAI makes that stack visible.
 
-We connect theory to implementation through technical books, hands-on laboratories, reproducible experiments, simulations, reference code, and open-source projects. The goal is simple: make rigorous systems and AI engineering knowledge practical, understandable, and freely accessible.
-
-## 02 / Mission
-
-Our mission is to give learners and engineers a clear path from the smallest units of computation to production AI infrastructure:
+We create technical books, laboratories, reference implementations, simulations, and reproducible experiments that connect foundational theory to working software. Every resource is designed to answer three questions:
 
 ```text
-{0, 1}
-   -> bits and bytes
-   -> memory and processors
-   -> operating systems and programs
-   -> mathematics and algorithms
-   -> machine learning and deep learning
-   -> large language models
-   -> scalable AI infrastructure
+01  What is the underlying principle?
+02  How is it implemented in a real system?
+03  What happens when we measure it?
 ```
 
-We believe capable AI engineers are built on strong foundations in computer architecture, operating systems, programming, mathematics, machine learning, and distributed systems.
-
-## 03 / What We Build
-
-| Area | Focus |
-| :--- | :--- |
-| Technical books | Structured, in-depth material on computer systems, AI engineering, and modern computing |
-| Hands-on labs | Programming exercises and engineering experiments designed to turn concepts into working systems |
-| Open-source projects | Practical implementations that expose the decisions and trade-offs behind real systems |
-| Simulations and visualizations | Tools that make complex computer science and mathematical concepts easier to explore |
-| AI engineering resources | Reference implementations, tutorials, and field guides for building reliable AI systems |
-
-## 04 / Learning Model
-
-Every OpenComputeAI resource follows the same engineering loop:
+## The stack
 
 ```text
-theory -> model -> implementation -> measurement -> refinement
+                         AI INFRASTRUCTURE
+                       /                   \
+              LARGE LANGUAGE MODELS    DISTRIBUTED SYSTEMS
+                     /                           \
+            DEEP LEARNING                 OPERATING SYSTEMS
+                  /                              \
+         MACHINE LEARNING                 COMPUTER ARCHITECTURE
+                /                                \
+          MATHEMATICS  <---- algorithms ---->  PROGRAMMING
+                \                                /
+                 +------ bits · bytes · data ---+
 ```
 
-We start with first principles, make assumptions explicit, implement the idea, and test it against observable results. This approach develops understanding that transfers across tools, frameworks, and technology cycles.
+Our work moves through the entire computing stack—from binary representation and processor architecture to machine learning, large language models, and production AI infrastructure.
 
-## 05 / Focus Areas
+## What we build
+
+| Domain | Output | Objective |
+| :--- | :--- | :--- |
+| Computer systems | Books, labs, and simulations | Make hardware and software abstractions concrete |
+| Mathematics for AI | Visual explanations and implementations | Connect equations to executable intuition |
+| AI engineering | Reference code and practical guides | Turn models into reliable systems |
+| LLM engineering | Experiments and system patterns | Explain how modern language-model applications work |
+| AI infrastructure | Architecture studies and tooling | Explore performance, scale, and operational trade-offs |
+
+## The method
 
 ```text
-[CS-101]  Computer Systems for AI Engineers
-[LAB-01]  Computer Systems Laboratory
-[LLM-ENG] Large Language Model Engineering
-[AI-INF]  AI Infrastructure
-[MATH-AI] Mathematics for Artificial Intelligence
-[EXP-001] Reproducible AI Engineering Experiments
+understanding = theory + implementation + measurement
+
+while knowledge.is_incomplete():
+    model = derive(first_principles)
+    system = implement(model)
+    evidence = measure(system)
+    knowledge = refine(evidence)
 ```
 
-## 06 / Who It Is For
+We make assumptions explicit, build the idea, observe its behavior, and revise our understanding. The result is knowledge that transfers across languages, frameworks, and technology cycles.
 
-OpenComputeAI is built for students, software engineers, AI engineers, researchers, educators, open-source contributors, and anyone who wants to understand how computing and AI systems work beneath the abstractions.
+## Current focus
 
-No single background is assumed. Curiosity, patience, and a willingness to build are enough to begin.
+```text
+CS.101   Computer Systems for AI Engineers
+LAB.001  Computer Systems Laboratory
+MATH.210 Mathematics for Artificial Intelligence
+LLM.301  Large Language Model Engineering
+INF.401  AI Infrastructure
+EXP.001  Reproducible AI Engineering Experiments
+```
 
-## 07 / Contributing
+## Built for
 
-Contributions are welcome across documentation, source code, laboratories, diagrams, simulations, testing, and educational content.
+Students, software engineers, AI engineers, researchers, educators, and open-source contributors who are willing to look beneath the abstraction and ask how the system actually works.
 
-Useful contributions are clear, technically sound, reproducible, and accessible to learners. Before starting substantial work, review the relevant repository documentation and open a discussion so that the proposed change can be aligned with the project's direction.
+No single background is required. Start with what you know; build the rest one layer at a time.
 
-## 08 / Vision
+## Contributing
 
-OpenComputeAI is working toward an open, durable ecosystem for computer systems and AI engineering education—one where knowledge is rigorous enough for professionals, approachable enough for learners, and available to everyone.
+OpenComputeAI welcomes contributions to documentation, source code, laboratories, diagrams, simulations, tests, and educational material.
+
+Strong contributions are technically sound, reproducible, clearly explained, and accessible to learners. Before beginning substantial work, review the relevant repository documentation and open a discussion to align the proposal with the project direction.
 
 ---
 
 <div align="center">
-
-`LEARN_DEEPLY` &nbsp;&middot;&nbsp; `BUILD_OPENLY` &nbsp;&middot;&nbsp; `SHARE_KNOWLEDGE`
-
+  <p><code>LEARN DEEPLY&nbsp;&nbsp;/&nbsp;&nbsp;BUILD OPENLY&nbsp;&nbsp;/&nbsp;&nbsp;SHARE KNOWLEDGE</code></p>
+  <sub>Open knowledge. Better systems. Smarter AI.</sub>
 </div>
